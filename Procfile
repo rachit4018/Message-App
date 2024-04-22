@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath messagebox mb_project.wsgi --log-file -
+sh -c 'cd message_box/mb_project && gunicorn django.wsgi:application'
