@@ -1,1 +1,1 @@
-web: gunicorn message_box.mb_project.wsgi --log-file -
+web: gunicorn --pythonpath messagebox mb_project.wsgi --log-file -
