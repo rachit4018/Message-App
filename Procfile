@@ -1,1 +1,1 @@
-sh -c 'cd message_box/mb_project && gunicorn django.wsgi:application'
+sh -c 'cd message_box && gunicorn django.wsgi:application'
