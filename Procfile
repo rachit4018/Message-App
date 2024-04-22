@@ -1,1 +1,1 @@
-sh -c 'cd message_box && gunicorn django.wsgi:application'
+web gunicorn message_box.mb_project.wsgi:application --log-file -
