@@ -11,9 +11,9 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mb_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'message_box.mb_project.settings')
 
 application = get_wsgi_application()
 
 import sys
-print(sys.path)gi
+print(sys.path)
